@@ -1,3 +1,23 @@
-# Python virtual environment
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
 venv/
-src/venv/
+.env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vector stores / databases
+src/vector_store/
+src/vectorstore/
+
+# Chroma / SQLite
+*.sqlite3
+*.bin
+*.pickle
+
+# Logs
+*.log
